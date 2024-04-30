@@ -52,7 +52,7 @@ INDEXES = OrderedDict([
 ])
 
 ST_STATUSES = OrderedDict([
-    ("正常", 1),
+    ("正常", 0),
     ("ST", 1),
     ("*ST", 2),
 ])
