@@ -286,7 +286,7 @@ def run(
     if base_query is not None:
         sql = _build_join_sql(base_query, sql)
 
-    return I.Outputs(data=dai.DataSource.write_json({"sql": sql}))
+    return I.Outputs(data=dai.DataSource.write_json({"sql": sql}, base_ds=base_query))
 
 
 def post_run(outputs):

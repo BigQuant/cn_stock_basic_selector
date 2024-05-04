@@ -6,3 +6,4 @@ undev:
 
 publish:
 	bq module publish
+	# git push --tags
