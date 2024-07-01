@@ -34,7 +34,6 @@ LIST_SECTORS = OrderedDict([
     ("主板", 1),
     ("创业板", 2),
     ("科创板", 3),
-    ("北交所", 4),
 ])
 
 INDEXES = OrderedDict([
