@@ -39,6 +39,7 @@ LIST_SECTORS = OrderedDict([
 
 INDEXES = OrderedDict([
     ("中证500", "cn_stock_factors_base.is_zz500 == 1"),
+    ("中证A500", "cn_stock_factors_base.is_zza500 == 1"),
     ("上证指数", "cn_stock_factors_base.is_szzs == 1"),
     ("创业板指", "cn_stock_factors_base.is_cybz == 1"),
     ("深证成指", "cn_stock_factors_base.is_szcz == 1"),
